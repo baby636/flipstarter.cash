@@ -4,7 +4,9 @@
   "description": "Flipstarter website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo test"
+    "test": "echo test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,8 @@
     "feather-icons": "^4.28.0",
     "gulp-html-i18n": "^0.16.0",
     "highlight.js": "^10.4.1",
-    "pattern.css": "^1.0.0"
-  }
+    "pattern.css": "^1.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

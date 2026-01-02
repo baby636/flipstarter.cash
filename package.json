@@ -19,13 +19,13 @@
   "homepage": "https://github.com/flipstarter/flipstarter.cash#readme",
   "devDependencies": {
     "bootstrap": "^4.5.2",
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.27.11",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-newer": "^1.4.0",
     "gulp-nunjucks-render": "^2.2.3",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.0.0"
   },
   "dependencies": {
     "feather-icons": "^4.28.0",
